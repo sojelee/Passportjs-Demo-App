@@ -1,0 +1,33 @@
+{
+  "name": "auth-demo",
+  "version": "1.0.0",
+  "description": "A demo application to practice local authentication to a js app using nodejs, expressjs, mongodb, mongoose, ejs, passportjs passport-local, passport-local-mongoose",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "mongoose",
+    "passportjs",
+    "ecosystem"
+  ],
+  "author": "Joseph C Myalla",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.13.9",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.4.0"
+  }
+}
